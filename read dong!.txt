@@ -5,3 +5,11 @@
 ~ handler.js :  Memuat seluruh fungsi-fungsi handler yang 
                 digunakan pada berkas routes.
 ~ notes.js :    Memuat data notes yang disimpan dalam bentuk array objek.
+
+~ folder api digunakan untuk menampung banyak folder yang merupakan Hapi plugin. 
+    Untuk kebutuhan saat ini, kita cukup membuat satu plugin saja, yakni notes
+
+~ folder services akan menampung segala fungsi yang digunakan untuk menulis, 
+    mendapatkan, mengubah, atau menghapus sebuah resource. Ingat, ini berbeda 
+    dengan handler. Service akan fokus dalam menangani operasi CRUD pada 
+    resource, sedangkan handler akan fokus dalam menangani response pada client.
