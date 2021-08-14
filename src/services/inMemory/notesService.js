@@ -5,12 +5,6 @@ const NotFoundError = require('../../exceptions/NotFoundError');
 class NotesService {
     constructor() {
         this._notes = [];
-
-        // this.addNote = this.addNote.bind(this);
-        // this.getNotes = this.getNotes.bind(this);
-        // this.getNoteById = this.getNoteById.bind(this);
-        // this.editNoteById = this.editNoteById.bind(this);
-        // this.deleteNoteById = this.deleteNoteById.bind(this);
     }
 
     addNote({ title, body, tags }) {
